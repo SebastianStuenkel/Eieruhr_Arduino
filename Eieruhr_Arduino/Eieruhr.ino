@@ -19,7 +19,6 @@ void setup() {
   Serial.begin(9600);
   pinMode(8, OUTPUT);                     //LED ROT
   pinMode(9, OUTPUT);                     //LED Grün
-  pinMode(10, OUTPUT);                    //LED Weiß
   pinMode(buttonPin1, INPUT_PULLUP);
   pinMode(buttonPin2, INPUT_PULLUP);
   pinMode(buttonPin3, INPUT_PULLUP);
